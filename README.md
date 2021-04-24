@@ -1,6 +1,8 @@
 # TypeScript Sort
 
 Simple TypeScript Sort App
+- bubble sort
+- 
 
 ----
 
@@ -13,7 +15,7 @@ Simple TypeScript Sort App
 
 ------
 
-Run in terminal
+#### Run in terminal
 
 ```
 npm i
@@ -21,7 +23,7 @@ npm run start
 npm run build
 ```
 
-Or to start from scratch
+#### Or to start from scratch
 
 ```
 npm i typescript --save-dev
