@@ -13,7 +13,6 @@ Simple TypeScript Sort App
 * [Download TypeScript](https://www.typescriptlang.org/download)
 * [nodemon](https://www.npmjs.com/package/nodemon)
 * [Concurrently](https://www.npmjs.com/package/concurrently)
-* []()
 
 ------
 
