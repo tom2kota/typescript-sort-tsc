@@ -1,8 +1,9 @@
 # TypeScript Sort
 
 Simple TypeScript Sort App
-- bubble sort
-- 
+- bubble sort of numbers collection
+- bubble sort of characters collection
+- bubble sort of linked list
 
 ----
 

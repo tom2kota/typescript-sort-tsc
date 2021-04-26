@@ -1,5 +1,8 @@
-export default class CharactersCollection {
+import Sorter from "./Sorter";
+
+export default class CharactersCollection extends Sorter{
     constructor(public data: string) {
+        super()
     }
 
     get length() {
@@ -19,4 +22,5 @@ export default class CharactersCollection {
 
         this.data = characters.join('')
     }
+
 }
