@@ -5,6 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var NumbersCollection_1 = __importDefault(require("./NumbersCollection"));
 var CharactersCollection_1 = __importDefault(require("./CharactersCollection"));
+var LinkedList_1 = __importDefault(require("./LinkedList"));
 var inputData = [100, 3, -40, 2.5, 0, 10];
 var numbersCollection = new NumbersCollection_1.default(inputData);
 console.log(inputData);
@@ -19,15 +20,13 @@ console.log('... sort() ...');
 charactersCollection.sort();
 console.log(charactersCollection.data);
 console.log('---------------------------------------------');
-// const linkedList = new LinkedList()
-// linkedList.add(100)
-// linkedList.add(-100)
-// linkedList.add(50)
-// linkedList.add(-200)
-// linkedList.add(1100)
-//
-// const linkedListSorter = new Sorter(linkedList)
-// linkedList.print()
-// console.log('... sort() ...')
-// linkedListSorter.sort()
-// linkedList.print()
+var linkedList = new LinkedList_1.default();
+linkedList.add(100);
+linkedList.add(-100);
+linkedList.add(50);
+linkedList.add(-200);
+linkedList.add(11.50);
+linkedList.print();
+console.log('... sort() ...');
+linkedList.sort();
+linkedList.print();
